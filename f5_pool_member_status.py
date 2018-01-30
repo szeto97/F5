@@ -59,8 +59,6 @@ def prepare_html():
 	print "</head>"
 	print "<body>"
 	print ""
-	print "<!--<h2>qs-lb At-A-Glance</h2>-->"
-	print ""
 
 def lookup_color(status):
 	colors = [{'AVAILABILITY_STATUS_GREEN': '<green>AVAILABILITY_STATUS_GREEN&#10004;</green>', 'AVAILABILITY_STATUS_RED': '<red>AVAILABILITY_STATUS_RED&#10008;</red>', 'AVAILABILITY_STATUS_BLUE': '<blue>AVAILABILITY_STATUS_BLUE</blue>', 'ENABLED_STATUS_ENABLED': '<green>ENABLED_STATUS_ENABLED&#10004;</green>', 'ENABLED_STATUS_DISABLED': '<yellow>ENABLED_STATUS_DISABLED</yellow>'}]
